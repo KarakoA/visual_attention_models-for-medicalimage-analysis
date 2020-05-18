@@ -1,0 +1,20 @@
+cmd: papermill Visual_Attention_for_Medical_Image_Analysis.ipynb Visual_Attention_for_Medical_Image_Analysis_output.ipynb
+  --log-output -k python -p global_glimpse_sensor_n {{global_glimpse_sensor_n:int:None}}
+  -p global_glimpse_senor_patch_size {{global_glimpse_senor_patch_size:int:None}}
+  -p global_glimpse_sensor_scale {{global_glimpse_sensor_scale:int:None}} -p global_glimpse_network_output_size
+  {{global_glimpse_network_output_size:int:None}} -p global_glimpse_network_hidden_layer_size
+  {{global_glimpse_network_hidden_layer_size:int:None}} -p global_lstm_hidden_size
+  {{global_lstm_hidden_size:int:None}} -p global_lstm_num_layers {{global_lstm_num_layers:int:None}}
+  -p global_std_dev {{global_std_dev:float:None}} -p global_num_classes {{global_num_classes:int:None}}
+  -p global_num_epochs {{global_num_epochs:int:None}} -p global_batch_size {{global_batch_size:int:None}}
+  -p global_learning_rate {{global_learning_rate:float:None}} -p global_model_patience
+  {{global_model_patience:int:None}} -p global_num_glimpses {{global_num_glimpses:int:None}}
+wdir: ..
+deps:
+- path: Visual_Attention_for_Medical_Image_Analysis.ipynb
+outs:
+- path: Visual_Attention_for_Medical_Image_Analysis_output.ipynb
+  cache: true
+  metric: false
+  persist: false
+
