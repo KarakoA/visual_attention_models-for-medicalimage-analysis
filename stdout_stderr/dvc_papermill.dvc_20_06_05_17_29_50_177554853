@@ -1,0 +1,198 @@
+WARNING: DVC-file 'dvc/papermill.dvc' changed.
+WARNING: Stage 'dvc/papermill.dvc' changed.
+Running command:
+	papermill Visual_Attention_for_Medical_Image_Analysis.ipynb Visual_Attention_for_Medical_Image_Analysis_output.ipynb --log-output -k python
+Input Notebook:  Visual_Attention_for_Medical_Image_Analysis.ipynb
+Output Notebook: Visual_Attention_for_Medical_Image_Analysis_output.ipynb
+Executing notebook with kernel: python
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Defaulting to user installation because normal site-packages is not writeable
+
+Requirement already satisfied: torch in /home/cc/.local/lib/python3.6/site-packages (1.4.0)
+Requirement already satisfied: torchvision in /home/cc/.local/lib/python3.6/site-packages (0.5.0)
+
+Collecting torchviz
+
+  Downloading torchviz-0.0.1.tar.gz (41 kB)
+[?25l[K     |████████                        | 10 kB 28.3 MB/s eta 0:00:01[K     |████████████████                | 20 kB 1.2 MB/s eta 0:00:01[K     |███████████████████████▉        | 30 kB 1.6 MB/s eta 0:00:01[K     |███████████████████████████████▉| 40 kB 1.8 MB/s eta 0:00:01[K     |████████████████████████████████| 41 kB 163 kB/s 
+
+[?25hRequirement already satisfied: matplotlib in /home/cc/.local/lib/python3.6/site-packages (3.2.1)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (1.18.2)
+Requirement already satisfied: tqdm in /home/cc/.local/lib/python3.6/site-packages (4.45.0)
+Requirement already satisfied: six in /usr/local/lib/python3.6/dist-packages (from torchvision) (1.14.0)
+Requirement already satisfied: pillow>=4.1.1 in /home/cc/.local/lib/python3.6/site-packages (from torchvision) (7.1.1)
+
+Collecting graphviz
+  Downloading graphviz-0.14-py2.py3-none-any.whl (18 kB)
+
+Requirement already satisfied: cycler>=0.10 in /home/cc/.local/lib/python3.6/site-packages (from matplotlib) (0.10.0)
+Requirement already satisfied: python-dateutil>=2.1 in /home/cc/.local/lib/python3.6/site-packages (from matplotlib) (2.8.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /home/cc/.local/lib/python3.6/site-packages (from matplotlib) (2.4.7)
+Requirement already satisfied: kiwisolver>=1.0.1 in /home/cc/.local/lib/python3.6/site-packages (from matplotlib) (1.2.0)
+Building wheels for collected packages: torchviz
+
+  Building wheel for torchviz (setup.py) ... [?25l-
+ done
+[?25h  Created wheel for torchviz: filename=torchviz-0.0.1-py3-none-any.whl size=4276 sha256=0fae9fc48c0780a765e7b21e92bf8e70e4f18ef39ae338f3abbff668c78ee85c
+  Stored in directory: /home/cc/.cache/pip/wheels/e8/16/a6/06a007dacdd58a588db06333a7da7e571b792fbd6cf5bccafb
+Successfully built torchviz
+
+Installing collected packages: graphviz, torchviz
+
+Successfully installed graphviz-0.14 torchviz-0.0.1
+
+[33mWARNING: You are using pip version 20.0.2; however, version 20.1.1 is available.
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.[0m
+
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+MEDNIST							  dot-graph.gv.pdf
+README.md						  dvc
+Visual_Attention_for_Medical_Image_Analysis.ipynb	  models
+Visual_Attention_for_Medical_Image_Analysis_output.ipynb  stdout_stderr
+cc_execution_file.red.yml
+
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+/cc/outputs/repo
+
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+labels.npy  part_0.npy	part_1.npy  part_2.npy	part_3.npy  part_4.npy
+
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+4000
+
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+Ending Cell 9------------------------------------------
+Executing Cell 10--------------------------------------
+Ending Cell 10-----------------------------------------
+Executing Cell 11--------------------------------------
+Ending Cell 11-----------------------------------------
+Executing Cell 12--------------------------------------
+Ending Cell 12-----------------------------------------
+Executing Cell 13--------------------------------------
+Ending Cell 13-----------------------------------------
+Executing Cell 14--------------------------------------
+Ending Cell 14-----------------------------------------
+Executing Cell 15--------------------------------------
+Ending Cell 15-----------------------------------------
+Executing Cell 16--------------------------------------
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to ./data/MNIST/raw/train-images-idx3-ubyte.gz
+
+HBox(children=(FloatProgress(value=1.0, bar_style='info', max=1.0), HTML(value='')))
+Extracting ./data/MNIST/raw/train-images-idx3-ubyte.gz to ./data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to ./data/MNIST/raw/train-labels-idx1-ubyte.gz
+
+HBox(children=(FloatProgress(value=1.0, bar_style='info', max=1.0), HTML(value='')))
+Extracting ./data/MNIST/raw/train-labels-idx1-ubyte.gz to ./data/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw/t10k-images-idx3-ubyte.gz
+
+HBox(children=(FloatProgress(value=1.0, bar_style='info', max=1.0), HTML(value='')))
+Extracting ./data/MNIST/raw/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz
+
+
+
+HBox(children=(FloatProgress(value=1.0, bar_style='info', max=1.0), HTML(value='')))
+Extracting ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw
+Processing...
+Done!
+
+Ending Cell 16-----------------------------------------
+Executing Cell 17--------------------------------------
+
+
+
+<Figure size 1800x1800 with 4 Axes>
+Ending Cell 17-----------------------------------------
+Executing Cell 18--------------------------------------
+Ending Cell 18-----------------------------------------
+Executing Cell 19--------------------------------------
+Ending Cell 19-----------------------------------------
+Executing Cell 20--------------------------------------
+Ending Cell 20-----------------------------------------
+Executing Cell 21--------------------------------------
+Ending Cell 21-----------------------------------------
+Executing Cell 22--------------------------------------
+<Figure size 1800x1800 with 4 Axes>
+<Figure size 1800x1800 with 4 Axes>
+<Figure size 1800x1800 with 4 Axes>
+<Figure size 1800x1800 with 4 Axes>
+Ending Cell 22-----------------------------------------
+Executing Cell 23--------------------------------------
+Ending Cell 23-----------------------------------------
+Executing Cell 24--------------------------------------
+Ending Cell 24-----------------------------------------
+Executing Cell 25--------------------------------------
+Ending Cell 25-----------------------------------------
+Executing Cell 26--------------------------------------
+Ending Cell 26-----------------------------------------
+Executing Cell 27--------------------------------------
+Ending Cell 27-----------------------------------------
+Executing Cell 28--------------------------------------
+Ending Cell 28-----------------------------------------
+Executing Cell 29--------------------------------------
+Ending Cell 29-----------------------------------------
+Executing Cell 30--------------------------------------
+Ending Cell 30-----------------------------------------
+Executing Cell 31--------------------------------------
+Ending Cell 31-----------------------------------------
+Executing Cell 32--------------------------------------
+Ending Cell 32-----------------------------------------
+Executing Cell 33--------------------------------------
+Ending Cell 33-----------------------------------------
+Executing Cell 34--------------------------------------
+Ending Cell 34-----------------------------------------
+Executing Cell 35--------------------------------------
+Ending Cell 35-----------------------------------------
+Executing Cell 36--------------------------------------
+Ending Cell 36-----------------------------------------
+Executing Cell 37--------------------------------------
+Ending Cell 37-----------------------------------------
+Executing Cell 38--------------------------------------
+Ending Cell 38-----------------------------------------
+Executing Cell 39--------------------------------------
+Ending Cell 39-----------------------------------------
+Executing Cell 40--------------------------------------
+Ending Cell 40-----------------------------------------
+Executing Cell 41--------------------------------------
+[*] Loading model from ./models
+No checkpoint found, starting from scratch
+
+HBox(children=(FloatProgress(value=0.0, max=54000.0), HTML(value='')))
+
+Epoch: 0, avg. loss: 1.111, avg. acc: 61.674
+
+[*] Epoch: 0, validation - 4932/6000 Correct, Acc: (82.20%), Err(17.80%)
+
+Ending Cell 41-----------------------------------------
+Executing Cell 42--------------------------------------
+Ending Cell 42-----------------------------------------
+Executing Cell 43--------------------------------------
+Ending Cell 43-----------------------------------------
+Executing Cell 44--------------------------------------
+Ending Cell 44-----------------------------------------
+Executing Cell 45--------------------------------------
+Ending Cell 45-----------------------------------------
+Executing Cell 46--------------------------------------
+Ending Cell 46-----------------------------------------
+Executing Cell 47--------------------------------------
+Ending Cell 47-----------------------------------------
+Executing Cell 48--------------------------------------
+Ending Cell 48-----------------------------------------
+Executing Cell 49--------------------------------------
+Ending Cell 49-----------------------------------------
+
+To track the changes with git, run:
+
+	git add dvc/papermill.dvc .gitignore

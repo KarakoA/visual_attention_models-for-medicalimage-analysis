@@ -3,8 +3,11 @@ cmd: papermill Visual_Attention_for_Medical_Image_Analysis.ipynb Visual_Attentio
 wdir: ..
 deps:
 - path: Visual_Attention_for_Medical_Image_Analysis.ipynb
+  md5: 44875c2da429075d25391148eaf72095
 outs:
 - path: Visual_Attention_for_Medical_Image_Analysis_output.ipynb
   cache: true
   metric: false
   persist: false
+  md5: 04f01ea8fd4a2a1bc2d8e9bed615e2f3
+md5: 4486633c9d2870a7b57dd2f33eaa9960
