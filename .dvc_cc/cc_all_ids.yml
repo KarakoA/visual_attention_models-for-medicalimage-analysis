@@ -40,3 +40,5 @@ cc_0025_test-less-but-bigger-files:
 - 5eda73e0fe4bf0e82609ce70
 cc_0026_test-using-augmented-and-sshfs:
 - 5eda7499fe4bf0e82609ce76
+cc_0027_test-using-augmented-and-no-sshfs:
+- 5eda753b821b4f33cf9a8b57
