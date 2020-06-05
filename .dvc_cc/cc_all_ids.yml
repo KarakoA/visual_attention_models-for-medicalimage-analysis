@@ -48,3 +48,5 @@ cc_0029_test-augmented-sshfs-without-accessing:
 - 5eda786f821b4f33cf9a8b61
 cc_0030_test-sshfs-info:
 - 5eda81cc251df34828f323ba
+cc_0031_test-sshfs-info:
+- 5eda829e251df34828f323bf
