@@ -44,3 +44,5 @@ cc_0027_test-using-augmented-and-no-sshfs:
 - 5eda753b821b4f33cf9a8b57
 cc_0028_test-augmented-no-sshfs:
 - 5eda766e821b4f33cf9a8b5c
+cc_0029_test-augmented-sshfs-without-accessing:
+- 5eda786f821b4f33cf9a8b61
