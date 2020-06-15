@@ -76,3 +76,5 @@ cc_0043_AugmentedMedical300Epochs5-16x16:
 - 5ee745b0c86f16d7bc36df49
 cc_0044_Augmented-medical-5-16x16-std018:
 - 5ee7515ffe4bf0e82609cec2
+cc_0045_IncreaseHiddenLayers:
+- 5ee761aefe4bf0e82609cec5
