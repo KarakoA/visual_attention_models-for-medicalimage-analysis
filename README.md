@@ -4,7 +4,7 @@
 | Model                          |   Error |      Dataset        |
 |:-------------------------------|:--------:|:------------------:|
 | 6 glimpses, 8x8, 3 scales  | 0.78 % | MNIST               | 
-| 6 glimpses, 12x12, 3 scales| 1.18 %   | Transformed MNIST   | 
+| 8 glimpses, 12x12, 3 scales| 1.18 %   | Transformed MNIST   | 
 | 8 glimpses, 12x12, 4 scales (65 epochs)| 70.04 % | Augmented Medical MNIST | 
 
 # Baselines
