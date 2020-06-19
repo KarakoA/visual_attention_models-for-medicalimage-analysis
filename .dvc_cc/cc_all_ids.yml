@@ -88,3 +88,5 @@ cc_0050_CompareGpuVsCpuLoadedModel:
 - 5eec6fa7251df34828f32490
 cc_0051_SingleEpoch+plot:
 - 5eec850a251df34828f32499
+cc_0052_CheckIf1000+1000ModelIsCorrect:
+- 5eec88b9821b4f33cf9a8bfd
