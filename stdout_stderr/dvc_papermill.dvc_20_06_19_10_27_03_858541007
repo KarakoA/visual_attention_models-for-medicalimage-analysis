@@ -1,0 +1,19 @@
+WARNING: DVC-file 'dvc/papermill.dvc' changed.
+WARNING: Stage 'dvc/papermill.dvc' changed.
+Running command:
+	papermill Visual_Attention_for_Medical_Image_Analysis.ipynb Visual_Attention_for_Medical_Image_Analysis_output.ipynb --log-output -k python
+Input Notebook:  Visual_Attention_for_Medical_Image_Analysis.ipynb
+Output Notebook: Visual_Attention_for_Medical_Image_Analysis_output.ipynb
+Executing notebook with kernel: python
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Ending Cell 4------------------------------------------
+
+To track the changes with git, run:
+
+	git add dvc/papermill.dvc .gitignore
