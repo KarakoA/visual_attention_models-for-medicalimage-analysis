@@ -1,0 +1,9 @@
+cmd: papermill VAM-2.0.ipynb VAM-2.0_output.ipynb --log-output -k python
+wdir: ..
+deps:
+- path: VAM-2.0.ipynb
+outs:
+- path: VAM-2.0_output.ipynb
+  cache: true
+  metric: false
+  persist: false
