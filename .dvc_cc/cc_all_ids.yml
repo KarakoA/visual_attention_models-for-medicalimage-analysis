@@ -120,3 +120,5 @@ cc_0088_augmented-medical-weak-1000:
 - 5f0d628365b9f5f4dd850ab1
 cc_0089_100EpochsTransformed:
 - 5f0d631665b9f5f4dd850ab5
+cc_0090_1000EpochMoreNeurons:
+- 5f0ddccc65b9f5f4dd850abc
