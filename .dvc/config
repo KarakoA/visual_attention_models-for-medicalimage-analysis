@@ -1,0 +1,5 @@
+[core]
+    remote = dvc_connection
+['remote "dvc_connection"']
+    url = ssh://s0553324@dt1.f4.htw-berlin.de:/mnt/md0/s0553324/github.com/KarakoA/visual_attention_models-for-medicalimage-analysis.git
+    ask_password = true

@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+./plots	
 # C extensions
 *.so
 
@@ -132,3 +132,6 @@ tmp
 .DS_Store
 
 data
+MEDNIST
+tmp_live_output
+tmp_live_output
