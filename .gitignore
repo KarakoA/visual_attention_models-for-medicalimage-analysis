@@ -133,5 +133,7 @@ tmp
 
 data
 MEDNIST
+MEDNIST_3
+MEDNIST_SIMPLE
 tmp_live_output
 tmp_live_output
