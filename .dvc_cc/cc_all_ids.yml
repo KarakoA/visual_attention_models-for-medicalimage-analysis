@@ -134,3 +134,5 @@ cc_0100_TestFromDev:
 - 5f14c5cb65b9f5f4dd850aea
 cc_0101_TestRun:
 - 5f155fe465b9f5f4dd850af7
+cc_0103_50epoch-mnist-zakka:
+- 5f1989f665b9f5f4dd850b22
