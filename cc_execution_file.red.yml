@@ -8,8 +8,8 @@ batches:
       git_path_to_working_repository: "github.com"
       git_working_repository_owner: "KarakoA"
       git_working_repository_name: "visual_attention_models-for-medicalimage-analysis.git"
-      git_name_of_input_branch: "cc_0110_200EpochMnistUsing*inSensor"
-      git_name_of_result_branch: "rcc_0110_200EpochMnistUsing*inSensor"
+      git_name_of_input_branch: "cc_0112_200mnistmul"
+      git_name_of_result_branch: "rcc_0112_200mnistmul"
       dvc_authentication_json:
         class: File
         connector:
