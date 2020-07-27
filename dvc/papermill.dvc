@@ -2,8 +2,11 @@ cmd: papermill VAM-3.0.ipynb VAM-3.0_output.ipynb --log-output -k python
 wdir: ..
 deps:
 - path: VAM-3.0.ipynb
+  md5: 93a438ef5192680cc3cffd18b476b0e7
 outs:
 - path: VAM-3.0_output.ipynb
   cache: true
   metric: false
   persist: false
+  md5: 8b3f56c7b28eae1a3928e6b217d7078b
+md5: 558171c38610606614c7d14b06ba2c6a
