@@ -148,3 +148,5 @@ cc_0108_Zakka500EpochSimplemednist:
 - 5f1a0c4665b9f5f4dd850b49
 cc_0109_200EpochMnistUsing+inSensor:
 - 5f1ee3c965b9f5f4dd850b71
+cc_0110_200EpochMnistUsing*inSensor:
+- 5f1ee45c65b9f5f4dd850b75
