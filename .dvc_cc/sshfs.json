@@ -18,5 +18,10 @@
        "username":"s0553324",
        "server":"dt1.f4.htw-berlin.de",
        "remote_path":"/mnt/md0/s0553324/MEDNIST_3"
-    }
+    },
+    "MEDNIST_2":{
+      "username":"s0553324",
+      "server":"dt1.f4.htw-berlin.de",
+      "remote_path":"/mnt/md0/s0553324/MEDNIST_2"
+   }
  }
