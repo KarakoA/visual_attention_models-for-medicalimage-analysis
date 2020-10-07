@@ -184,3 +184,5 @@ cc_0126_12x2x3Transformed-a:
 - 5f7cb4847da03f80fc8094af
 cc_0128_12x2x3Transformed-mean-test:
 - 5f7d811b2707eaaa58ab6629
+cc_0129_12x2x5MednistRnn:
+- 5f7e497253360a0f0afaec3a
